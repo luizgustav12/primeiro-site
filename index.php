@@ -10,7 +10,12 @@
     </head>
 
     <body>
-        <a href="../ajax/galeria.php" class="button-gallery btn1">Galeria</a>
-        <a href="../ajax/contato.php" class="button-contact btn2">Contato</a>
+        <div>
+            <a href="../system/galeria.php" class="button-gallery btn1">Galeria</a>
+        </div>
+
+        <div>
+            <a href="../system/contato.php" class="button-contact btn2">Contato</a>
+        </div>
     </body>
 </html>

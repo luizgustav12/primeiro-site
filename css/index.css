@@ -1,6 +1,7 @@
     tittle{
         color: #0093e9af;
         font-size: 30px;
+        
     }
 
     body{
@@ -28,7 +29,7 @@
         font-family: "montserrat";
         text-decoration: none;
         border: 2px solid #ff7675;
-        padding: 40px 80px;  /* Mexe com o tamanhofo botao */
+        padding: 20px 80px;
         text-transform: uppercase;
         overflow: hidden;
         transition: 1s all ease;
@@ -38,7 +39,7 @@
     .button-contact{
         position: relative;
         left: 360px;
-        top: -50px;
+        top: 37px;
         width: 30px;
         
         display: block;
@@ -47,7 +48,7 @@
         font-family: "montserrat";
         text-decoration: none;
         border: 2px solid #ff7675;
-        padding: 40px 80px;  /* Mexe com o tamanhofo botao */
+        padding: 20px 80px;
         text-transform: uppercase;
         overflow: hidden;
         transition: 1s all ease;
@@ -88,12 +89,11 @@
         transform: translate(-50%,-50%) rotate(-45deg);
     }
 
-    .btn1:hover::before{ /* O TAMANHO DA ANIMAÇÃO */
-        height: 300%;
+    .btn1:hover::before{ /* tamanho da faixa do botao */
+        height: 500%; 
     }
 
-    .btn2:hover::before{ /* O TAMANHO DA ANIMAÇÃO */
-        height: 300%;
+    .btn2:hover::before{ /* tamanho da faixa do botao */
+        height: 500%; 
     }
-    
       
