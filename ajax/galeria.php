@@ -1,7 +1,7 @@
-<?php 
-    require "../include/header.php";
-
-
+<?php require "../include/header.php"; ?>
     
-    require "../include/footer.php";
-?>
+
+
+
+  
+<?php require "../include/footer.php"; ?>

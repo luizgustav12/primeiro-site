@@ -1,7 +1,10 @@
-    tittle{
+    .button-title{
         color: #0093e9af;
         font-size: 30px;
-        
+        padding: 10px 30px;
+        position: absolute;
+        top: 13px;
+        text-decoration: none;
     }
 
     body{
@@ -10,17 +13,17 @@
         background: #2d3436;
     }
 
-    .middle{
+    /* .middle{
         position: center;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-    }
+    } */
 
     .button-gallery{
         position: relative;
         left: 120px;
-        top: 50px;
+        top: 120px;
         width: 30px;
         
         display: block;
@@ -32,14 +35,14 @@
         padding: 20px 80px;
         text-transform: uppercase;
         overflow: hidden;
-        transition: 1s all ease;
+        /* transition: 1s all ease; */
         
     }
 
     .button-contact{
         position: relative;
         left: 360px;
-        top: 37px;
+        top: 60px;
         width: 30px;
         
         display: block;
@@ -51,7 +54,7 @@
         padding: 20px 80px;
         text-transform: uppercase;
         overflow: hidden;
-        transition: 1s all ease;
+        /* transition: 1s all ease; */
         
     }
     

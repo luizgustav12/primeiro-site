@@ -1,7 +1,8 @@
-<?php 
-    require "../include/header.php";
-
-
+<!DOCTYPE html> <title>Meu síte | Galeria</title> </html> 
+<?php require "../include/header.php"; ?>
     
-    require "../include/footer.php";
-?>
+
+
+
+  
+<?php require "../include/footer.php"; ?>
