@@ -1,0 +1,108 @@
+    .form-body{
+        position: absolute;
+        top: 85px;
+        left: 421px;
+    }
+    
+    h1{
+        font-size: 28px;
+        color: #bf463b;
+        
+        position: absolute;
+        top: 2px;
+        left: 36px;
+    }
+
+    fieldset{
+        height: 500px;
+        border-radius: 15px;
+        border-color: #d1d1d1;
+        background-color: #d1d1d1;
+        width: 665px;
+    }
+
+    #indicador-nome{
+        font-size: 20px;
+        color: #bf463b;
+
+        position: absolute;
+        top: 74px;
+        left: 74px;
+    }
+
+    #nome{
+        position: relative;
+        top: 96px;
+        left: 59px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+
+    #indicador-email{
+        font-size: 20px;
+        color: #bf463b;
+
+        position: absolute;
+        top: 150px;
+        left: 74px;
+    }
+
+    #email{
+        position: relative;
+        top: 172px;
+        right: 262px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+
+    #indicador-telefone{
+        font-size: 20px;
+        color: #bf463b;
+
+        position: absolute;
+        top: 226px;
+        left: 74px;
+    }
+
+    #telefone{
+        position: relative;
+        top: 222px;
+        left: 59px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+
+    #indicador-mensagem{
+        font-size: 20px;
+        color: #bf463b;
+
+        position: absolute;
+        top: 302px;
+        left: 74px;
+    }
+
+    #mensagem{
+        position: relative;
+        top: 272px;
+        left: 59px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+        height: 95px;
+        width: 548px;
+    }
+
+    .button_submit{
+        font-size: 18px;
+        background-color: #BF463B;
+        border: none;
+        border-radius: 4px;
+        color: #e6e6e6;
+        padding: 8px 20px;
+        position: relative;
+        top: 366px;
+        right: 35px;
+    }
