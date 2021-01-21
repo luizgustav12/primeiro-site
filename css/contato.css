@@ -92,7 +92,7 @@
         border-radius: 5px;
         padding: 6px 0;
         height: 95px;
-        width: 548px;
+        width: 553px;
     }
 
     .button_submit{
@@ -102,7 +102,7 @@
         border-radius: 4px;
         color: #e6e6e6;
         padding: 8px 20px;
-        position: relative;
-        top: 366px;
-        right: 35px;
+        position: absolute;
+        top: 462px;
+        right: 30px;
     }

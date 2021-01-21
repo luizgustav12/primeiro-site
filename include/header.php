@@ -1,3 +1,9 @@
+<?php
+   require "../banco_de_dados/config_banco.php";
+   db_conectar();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>      

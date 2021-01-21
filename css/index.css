@@ -22,7 +22,7 @@
         position: absolute;
         bottom:0;
         width: 100%;
-        height: 60px;
+        height: 32px;
         left: 0;
     }
 
@@ -113,20 +113,22 @@
         height: 500%; 
     }
 
-    /* ----------------------------------------------- */ 
+    /* ------------------------------------------------ */ 
 
     .div-redes{
-        padding-bottom: 100px;
+        top: 28px;
+        position: absolute;
     }
 
-    .button-redes{
+    #insta{
         width: 50px;
         height: 50px;
-        float: left;
-        margin: 0px 20px;
-        position: relative;
-        top: 8px;
-    } 
-    
+        margin: 0px 25px;
+    }
+
+    #linkedin{
+        width: 50px;
+        height: 50px;
+    }
     
       
