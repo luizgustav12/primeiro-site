@@ -18,7 +18,6 @@
 		
 			
 		$banco = $xmlBancos -> xpath("//site");
-
 		if(count($banco) == 0)
 			db_erro("", "O banco de dados não foi localizado");
 		
@@ -33,14 +32,6 @@
 			db_erro("Falha ao conectar-se no banco de dados", "", $erro -> getMessage());
 		}
 		
-		// $db_conexao = array("Database" => DB_NAME, "UID" => DB_USER, "PWD" => DB_PASSWORD);
-        // $connection = sqlsrv_connect(DB_SERVER, $db_conexao);
-        
-        // if(!$connection){
-        //     echo "Connection could not be established.\n";  
-        //     die(print_r( sqlsrv_errors(), true));
-        // }
-
 		return $db_conexao;
 	}
 	
@@ -96,8 +87,7 @@
 			if(empty($arrayParametros))
 				$query -> execute();
 			else{
-				unset($arrayParametros[0]);
-				$arrayParametros = array_values($arrayParametros);
+				
 				$query -> execute($arrayParametros);
 			}
 		}

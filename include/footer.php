@@ -1,4 +1,4 @@
-    </head>
+
     <footer>
         <div class="div-redes">
             <a class="button-redes" href="https://instagram.com/_luizgustavops?igshid=kgml87ktakyf">

@@ -1836,7 +1836,7 @@ class PHPMailer {
 
     switch (strtolower($position)) {
       case 'phrase':
-        $encoded = preg_replace("/([^A-Za-z0-9!*+\/ -])/e", "'='.sprintf('%02X', ord('\\1'))", $encoded);
+        $encoded = preg_replace("/([^A-Za-z0-9!*+\/ -])/", "'='.sprintf('%02X', ord('\\1'))", $encoded);
         break;
       case 'comment':
         $encoded = preg_replace("/([\(\)\"])/e", "'='.sprintf('%02X', ord('\\1'))", $encoded);

@@ -24,6 +24,7 @@
 
                     <a id="indicador-mensagem">Deixe sua mensagem:</a>
                     <input type="text" id="mensagem" name="mensagem" maxlength="1000" >
+                    <input type="hidden" id="acao"    name="acao"    value="contato" >
 
                     <button type="submit" class="button_submit">Enviar</button>
 

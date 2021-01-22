@@ -8,6 +8,6 @@
     $emailHost       = "smtp.gmail.com";
     $emailSMTPAuth   = true;
     $emailSMTPSecure = "ssl";
-    $emailPost       = 465;
+    $emailPort       = 465;
 
 ?>
