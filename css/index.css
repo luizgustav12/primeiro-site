@@ -52,7 +52,7 @@
         
     }
 
-    .button-contact{
+    .button-cadastro{
         position: relative;
         left: 360px;
         top: 60px;
@@ -82,7 +82,7 @@
         transition: all 0.6s ease;
     }
 
-    .button-contact::before{
+    .button-cadastro::before{
         background: #ff7675;
         content: "";
         position: absolute;

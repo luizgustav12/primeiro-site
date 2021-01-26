@@ -23,7 +23,7 @@
         </div>
 
         <div>
-            <a href="../system/contato.php" class="button-contact btn2">Contato</a>
+            <a href="../system/cadastro.php" class="button-cadastro btn2">Cadastro</a>
         </div>
     </body>
 

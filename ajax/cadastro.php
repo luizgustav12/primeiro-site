@@ -4,11 +4,11 @@
 
     db_conectar();
 
-    if ($_POST["acao"] == "contato"){
+    if ($_POST["acao"] == "cadastro"){
         $nome     = $_POST["nome"];
         $email    = $_POST["email"];
         $telefone = $_POST["telefone"];
-        $mensagem = $_POST["mensagem"];
+        $senha    = $_POST["senha"];
 
         $sql = "SELECT idUsuario
                 FROM   cadastro_contato
@@ -20,25 +20,25 @@
 
         $dados = db_lista($sql, $arrayEmail);
 
-        if (empty($dados)){
+        // if (empty($dados)){
 
 
-            $sql = "INSERT into cadastro_contato ( nome, email, telefone, mensagem )
+            $sql = "INSERT into cadastro_contato ( nome, email, telefone, senha )
             value ( ?, ?, ?, ? ); ";
 
-            db_query($sql, array( $nome, $email, $telefone, $mensagem));
+            db_query($sql, array( $nome, $email, $telefone, $senha));
 
             # envia o email
             require "../include/enviar-email.php";
             header("Location: ../index.php");
               
-        } else{
-            echo "<script>
-                alert(' Contato já foi enviado ');
-                window.location.href = '../index.php?';
-            </script>"  ;
+        // } else{
+        //     echo "<script>
+        //         alert(' Este cadastro já foi realizado ');
+        //         window.location.href = '../index.php?';
+        //     </script>"  ;
 
-        } 
+        // } 
     }
 
     db_desconectar();

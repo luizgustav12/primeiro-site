@@ -14,11 +14,11 @@
     }
 
     fieldset{
-        height: 500px;
+        height: 435px;
         border-radius: 15px;
         border-color: #d1d1d1;
         background-color: #d1d1d1;
-        width: 665px;
+        width: 510px;
     }
 
     #indicador-nome{
@@ -50,8 +50,8 @@
 
     #email{
         position: relative;
-        top: 172px;
-        right: 262px;
+        top: 152px;
+        left: 59px;
         border: none;
         border-radius: 5px;
         padding: 6px 0;
@@ -62,13 +62,31 @@
         color: #bf463b;
 
         position: absolute;
-        top: 226px;
+        top: 230px;
         left: 74px;
     }
 
     #telefone{
         position: relative;
-        top: 222px;
+        top: 203px;
+        left: 59px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+
+    #indicador-senha{
+        font-size: 20px;
+        color: #bf463b;
+
+        position: absolute;
+        top: 312px;
+        left: 74px;
+    }
+
+    #senha{
+        position: relative;
+        top: 260px;
         left: 59px;
         border: none;
         border-radius: 5px;
@@ -101,8 +119,9 @@
         border: none;
         border-radius: 4px;
         color: #e6e6e6;
-        padding: 8px 20px;
+        padding: 10px 25px;
         position: absolute;
-        top: 462px;
-        right: 30px;
+        top: 390px;
+        right: 38px;
     }
+    

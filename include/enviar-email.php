@@ -1,5 +1,6 @@
 <?php 
     require_once( "../include/PHPMailer/class.phpmailer.php");
+    require_once "../html/email-cadastro.html";
 
     // chama as configuracoes de enviar email
     require "../include/email-config.php";
@@ -26,15 +27,9 @@
         $mail -> Port          = $emailPort;               
 
         $mail -> AddAddress("luiz.gustavo@serel.com.br", $nomeSistema);
-        $mail -> Subject = 'VOCE TEM UM NOVO CONTATO!';
+        $mail -> Subject = 'VOCE TEM UM NOVO CADASTRO!';
 
-        $mail -> Body    = "<br>
-                            <p>Seu novo contato é:
-                            <br><br>
-                            <b> Nome: </b>$nome   <br>
-                            <b> Email: </b>$email <br>  
-                            <b> Telefone: </b>$telefone  <br>  
-                            <b> Sua mensagem: </b><br> $mensagem ";
+        $mail -> Body    = $coisa;
 
         $mail -> MsgHTML($mail -> Body);
 
