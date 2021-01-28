@@ -1,0 +1,72 @@
+    .form-body{
+        position: relative;
+        top: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h1{
+        font-size: 28px;
+        color:#6ba268;
+        
+        position: relative;
+        top: -4px;
+        left: 22px;
+    }
+    
+    fieldset{
+        height: 261px;
+        width: 400px;
+        border-radius: 15px;
+        border-color: #d1d1d1;
+        background-color: #d1d1d1;
+        
+    }
+
+    #indicador-email{
+        font-size: 20px;
+        color: #6ba268;
+
+        position: relative;
+        top: -7px;
+        left: 23px;
+    }
+
+    #email{
+        position: relative;
+        left: 23px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+
+    #indicador-senha{
+        font-size: 20px;
+        color:#6ba268;
+
+        position: relative;
+        top: 22px;
+        left: 23px;
+    }
+
+    #senha{
+        position: relative;
+        top: 30px;
+        left: 23px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+
+    .button_submit{
+        font-size: 18px;
+        background-color: #6ba268;
+        border: none;
+        border-radius: 4px;
+        color: #e6e6e6;
+        padding: 8px 20px;
+        position: relative;
+        top: 46px;
+        left: 285px;
+    }

@@ -25,6 +25,11 @@
         <div>
             <a href="../system/cadastro.php" class="button-cadastro btn2">Cadastro</a>
         </div>
+
+        <div>
+            <a href="../system/login.php" class="button-entrar btn3">Entrar</a>
+        </div>
+
     </body>
 
     <footer>
