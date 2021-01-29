@@ -1,16 +1,18 @@
     .form-body{
-        position: absolute;
-        top: 85px;
-        left: 421px;
+        position: relative;
+        top: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     h1{
         font-size: 28px;
         color: #bf463b;
         
-        position: absolute;
+        position: relative;
         top: 2px;
-        left: 36px;
+        left: 21px;
     }
 
     fieldset{
@@ -18,22 +20,21 @@
         border-radius: 15px;
         border-color: #d1d1d1;
         background-color: #d1d1d1;
-        width: 510px;
+        width: 505px;
     }
 
     #indicador-nome{
         font-size: 20px;
         color: #bf463b;
 
-        position: absolute;
-        top: 74px;
-        left: 74px;
+        position: relative;
+        left: 22px;
     }
 
     #nome{
         position: relative;
-        top: 96px;
-        left: 59px;
+        top: 36px;
+        right: 35px;
         border: none;
         border-radius: 5px;
         padding: 6px 0;
@@ -43,15 +44,16 @@
         font-size: 20px;
         color: #bf463b;
 
-        position: absolute;
-        top: 150px;
-        left: 74px;
+        position: relative;
+        top: 50px;
+        left: 22px;
+
     }
 
     #email{
         position: relative;
-        top: 152px;
-        left: 59px;
+        top: 86px;
+        right: 35px;
         border: none;
         border-radius: 5px;
         padding: 6px 0;
@@ -61,15 +63,15 @@
         font-size: 20px;
         color: #bf463b;
 
-        position: absolute;
-        top: 230px;
-        left: 74px;
+        position: relative;
+        top: 100px;
+        left: 22px;
     }
 
     #telefone{
         position: relative;
-        top: 203px;
-        left: 59px;
+        top: 136px;
+        right: 56px;
         border: none;
         border-radius: 5px;
         padding: 6px 0;
@@ -79,38 +81,18 @@
         font-size: 20px;
         color: #bf463b;
 
-        position: absolute;
-        top: 312px;
-        left: 74px;
+        position: relative;
+        top: 150px;
+        left: 22px;
     }
 
     #senha{
         position: relative;
-        top: 260px;
-        left: 59px;
+        top: 186px;
+        right: 67px;
         border: none;
         border-radius: 5px;
         padding: 6px 0;
-    }
-
-    #indicador-mensagem{
-        font-size: 20px;
-        color: #bf463b;
-
-        position: absolute;
-        top: 302px;
-        left: 74px;
-    }
-
-    #mensagem{
-        position: relative;
-        top: 272px;
-        left: 59px;
-        border: none;
-        border-radius: 5px;
-        padding: 6px 0;
-        height: 95px;
-        width: 553px;
     }
 
     .button_submit{
@@ -119,9 +101,9 @@
         border: none;
         border-radius: 4px;
         color: #e6e6e6;
-        padding: 10px 25px;
-        position: absolute;
-        top: 390px;
-        right: 38px;
+        padding: 8px 20px;
+        position: relative;
+        top: 204px;
+        left: 368px;
     }
     
