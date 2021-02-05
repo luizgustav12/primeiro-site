@@ -1,0 +1,121 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background: #2d3436;
+        height: 100%;
+    }
+
+    .topo{
+        position: relative;
+        top: -20px;
+    }
+
+    p{
+        top: 30px;
+        font-size: 32px;
+        color: white;
+        font-family: verdana;
+
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .texto{
+        top: 24px;
+        font-size: 25px;
+        color: white;
+
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .informacao{
+        top: 27px;
+        font-size: 25px;
+        color: white;
+
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .button_voltar{
+        font-size: 18px;
+        background-color: #bf463b;
+        border: none;
+        border-radius: 4px;
+        color: #e6e6e6;
+        padding: 8px 20px;
+        text-decoration: none;
+        position: relative;
+        top: 56px;
+        left: 50px;
+    }
+
+    #esquerda{
+        height: 18px;
+        position: relative;
+        top: 3px;
+        right: 3px;
+    }
+
+    .class-body{
+        top: 80px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0px 40px;
+    }
+
+    h1{
+        font-size: 28px;
+        color: #33b241;
+        
+        position: relative;
+        top: 2px;
+        left: 21px;
+    }
+
+    fieldset{
+        border-radius: 15px;
+        background-color: #d1d1d1;
+        position: relative;
+        display: table;
+        width: 600px;
+        min-height: 233px;
+        height: auto;  
+        border: 0;  
+    }
+
+    #mensagem{
+        position: relative;
+        left: 22px;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+        
+        max-width: 554px;
+        min-width: 554px;
+
+        max-height: 190px;
+        min-height: 80px;
+    }
+
+    .button_submit{
+        font-size: 18px;
+        background-color:#33b241;
+        border: none;
+        border-radius: 4px;
+        color: #e6e6e6;
+        padding: 8px 20px;
+        position: relative;
+        top: 20px;
+        left: 400px;     
+    }
+    

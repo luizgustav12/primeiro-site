@@ -50,7 +50,7 @@
         text-decoration: none;
         border: 2px solid #ffc107e6;
         border-radius: 20px;
-        padding: 20px 80px 20px 46px;
+        padding: 20px 84px 20px 46px;
         text-transform: uppercase;
         overflow: hidden;
         /* transition: 1s all ease; */
@@ -85,7 +85,7 @@
         font-family: "montserrat";
         text-decoration: none;
         border: 2.6px solid #82ba7f;
-        padding: 16px 84px 20px 46px;
+        padding: 20px 84px 20px 46px;
         border-radius: 20px;
         text-transform: uppercase;
         overflow: hidden;

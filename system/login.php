@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html> 
-<html>
+<html lang="pt-br">
     <title>Meu síte | Login</title>
     <link rel="stylesheet" type="text/css" href="../css/login.css"> 
     
@@ -22,7 +22,7 @@
 
                     <input type="hidden" id="acao"    name="acao"    value="login" > 
 
-                    <button type="submit" class="button_submit">Entrar</button>
+                    <button type="submit" class="button_submit"> Entrar</button>
 
                 </fieldset>
             </form>

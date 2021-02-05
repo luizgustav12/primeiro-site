@@ -15,13 +15,13 @@
                     <h1>Preencha seus dados</h1>
 
                     <a id="indicador-nome">Nome:</a>
-                    <input type="text"  id="nome"  required  name="nome"  size="65" maxlength="60" placeholder=" João">
+                    <input type="text"  id="nome"  required  name="nome"  size="65" maxlength="60" placeholder=" Ex: João">
 
                     <a id="indicador-email">Email:</a>
-                    <input type="email" id="email" required  name="email" size="65" maxlength="60" placeholder=" joao@gmail.com">
+                    <input type="email" id="email" required  name="email" size="65" maxlength="60" placeholder=" Ex: joao@gmail.com">
 
                     <a id="indicador-telefone">Telefone:</a>
-                    <input type="tel" id="telefone" required  name="telefone" size="65" maxlength="15" placeholder=" (99) 9999-9999" >
+                    <input type="tel" id="telefone" required  name="telefone" size="65" maxlength="15" placeholder=" Ex: (99) 9999-9999" >
                     <!-- pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (99) 9999-9999" -->
 
                     <a id="indicador-senha">Sua senha:</a>

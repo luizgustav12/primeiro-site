@@ -1,0 +1,111 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background: #2d3436;
+        height: 100%;
+    }
+
+    .topo{
+        position: relative;
+        top: -18px;
+    }
+    
+    p{
+        top: 30px;
+        font-size: 32px;
+        color: white;
+        font-family: verdana;
+
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .texto{
+        top: 50px;
+        font-size: 25px;
+        color: white;
+
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .button_sair{
+        font-size: 18px;
+        background-color: #bf463b;
+        border: none;
+        border-radius: 4px;
+        color: #e6e6e6;
+        padding: 8px 20px;
+        text-decoration: none;
+        position: relative;
+        top: 57px;
+        left: 50px;
+    }
+
+    #sair{
+        height: 18px;
+        position: relative;
+        top: 2.5px;
+        right: 2.5px;
+    }
+
+    .class_body{
+        top: 80px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0px 40px;
+        /* max-width: 680px;
+        flex-flow: row wrap;
+        width: 100%; */
+    }
+
+    .buttons{
+        height: 100px;
+        width: 100%;
+    }
+
+    #button1 {
+        position: relative;
+        display: block;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        border: 2px solid #62ff07e6;
+        border-radius: 20px;
+        /* padding: 110px 25px; */
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #button2 {
+        position: relative;
+        display: block;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        border: 2px solid #ffc107e6;
+        border-radius: 20px;
+        /* padding: 110px 25px; */
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #button3 {
+        position: relative;
+        display: block;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        border: 2px solid #ff2600e6;
+        border-radius: 20px;
+        /* padding: 110px 25px; */
+        text-transform: uppercase;
+        text-align: center;
+        /* width: 100%; */
+    }
