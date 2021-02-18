@@ -28,7 +28,7 @@
     <body>
         <div class="topo">
             <div class="voltar">
-                <a type="submit" class="button_voltar" href="../system/perfil.php?codigo=<?php  echo $_GET["codigo"] ?>">
+                <a type="submit" class="button_voltar" href="../system/perfil.php?codigo=<?=  $_GET["codigo"] ?>">
                     <img id="esquerda" src="../imagens/icones/esquerda_preta.png">
                     Voltar
                 </a>
@@ -45,7 +45,7 @@
                             <h1>Escreva sua Mensagem</h1>
 
                             <textarea id="mensagem" name="mensagem" required></textarea>
-                            <input type="hidden" id="idUsuario" name="idUsuario" value="<?php echo $idUsuario ?>">
+                            <input type="hidden" id="idUsuario" name="idUsuario" value="<?= $idUsuario ?>">
                             <input type="hidden" id="acao" name="acao" value="alteracao" > 
                             
                             <button type="submit" class="button_submit"> Salvar alterações</button>

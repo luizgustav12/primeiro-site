@@ -27,10 +27,6 @@
                     <a id="indicador-senha">Sua senha:</a>
                     <input type="password" id="senha" required  name="senha" size="55" maxlength="25" ><br>
 
-
-                    <!-- <a id="indicador-mensagem">Deixe sua mensagem:</a>
-                    <input type="text" id="mensagem" name="mensagem" maxlength="1000" > -->
-
                     <input type="hidden" id="acao"    name="acao"    value="cadastro" > 
 
                     <button type="submit" class="button_submit">Cadastrar</button>

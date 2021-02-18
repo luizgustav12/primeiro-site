@@ -37,6 +37,8 @@
             </div>
 
             <p> Alteração de dados</p>
+            <a class="texto"> Caso não deseje alterar sua senha, coloque sua senha atual na nova.</a>
+
         </div>    
 
         <div class="class-body">
@@ -46,13 +48,13 @@
                         <h1>Preencha seus dados</h1>
 
                         <a id="indicador-nome">Nome:</a>
-                        <input type="text"  id="nome"  required  name="nome"  size="69" maxlength="60" value="<?php echo $nome ?>"><br>
+                        <input type="text"  id="nome"  required  name="nome"  size="69" maxlength="60" value="<?= $nome ?>"><br>
 
                         <a id="indicador-email">Email:</a>
-                        <input type="email" id="email" required  name="email" size="69" maxlength="60" value="<?php echo $email ?>"><br>
+                        <input type="email" id="email" required  name="email" size="69" maxlength="60" value="<?= $email ?>"><br>
 
                         <a id="indicador-telefone">Telefone:</a>
-                        <input type="tel" id="telefone" required  name="telefone" size="69" maxlength="15" value="<?php echo $telefone ?>"><br>
+                        <input type="tel" id="telefone" required  name="telefone" size="69" maxlength="15" value="<?= $telefone ?>"><br>
 
                         <a id="indicador-senha-atual">Senha atual:</a>
                         <input type="password" id="senha_atual" required  name="senha_atual" size="69" maxlength="25" ><br>
@@ -63,7 +65,7 @@
                         <a id="indicador-confirma">Confirmar nova senha:</a><br>
                         <input type="password" id="confirma_senha" required  name="confirma_senha" size="69" maxlength="25" ><br>
 
-                        <input type="hidden" id="idUsuario" name="idUsuario" value="<?php echo $idUsuario ?>" >
+                        <input type="hidden" id="idUsuario" name="idUsuario" value="<?= $idUsuario ?>" >
 
                         <input type="hidden" id="acao" name="acao" value="alteracao" > 
 
