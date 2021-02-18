@@ -59,18 +59,60 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        grid-gap: 0px 40px;
-        /* max-width: 680px;
-        flex-flow: row wrap;
-        width: 100%; */
+        flex-flow: column;
+        grid-gap: 25px 40px;
+    }
+
+    .class-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 720px;
     }
 
     .buttons{
-        height: 100px;
+        width: calc(50% - 15px);
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius:  16px;
+        border: 2px solid #d52000e6;
+        font-size: 16px;
+        font-weight: 560;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        /* margin-bottom: 20px; */
+    }
+    .buttons a{
+        color: white;
+        text-decoration: none;
+        text-shadow: 0.1em 0.1em 0.2em black;
+        
+        display: block;
+    }
+    .buttons:nth-child(1){
+        border: 2px solid #57e107e6;
+        background-color: #57e107e6;
+        /* #62ff07e6 */
+    }
+    .buttons:nth-child(2){
+        border: 2px solid #f0b607e6;
+        background-color: #f0b607e6;
+        /* #ffc107e6 */
+    }
+    .buttons:last-child{
         width: 100%;
+        height: 40px;
+        
+        background-color: #d52000e6;
+        /* #ff2600e6 */
     }
 
-    #button1 {
+    /* #button1 {
         position: relative;
         display: block;
         color: white;
@@ -78,9 +120,9 @@
         text-decoration: none;
         border: 2px solid #62ff07e6;
         border-radius: 20px;
-        /* padding: 110px 25px; */
         text-transform: uppercase;
         text-align: center;
+        height: 210px;
     }
 
     #button2 {
@@ -91,9 +133,9 @@
         text-decoration: none;
         border: 2px solid #ffc107e6;
         border-radius: 20px;
-        /* padding: 110px 25px; */
         text-transform: uppercase;
         text-align: center;
+        height: 210px;
     }
     
     #button3 {
@@ -104,8 +146,8 @@
         text-decoration: none;
         border: 2px solid #ff2600e6;
         border-radius: 20px;
-        /* padding: 110px 25px; */
         text-transform: uppercase;
         text-align: center;
-        /* width: 100%; */
-    }
+        height: 40px;
+        width: 720px;
+    } */

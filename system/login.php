@@ -15,10 +15,10 @@
                     <h1>Login</h1>
 
                     <a id="indicador-email">Email:</a>
-                    <input type="email" id="email" required  name="email" size="55" maxlength="60">
+                    <input type="email" id="email" required  name="email" size="46" maxlength="60">
 
                     <a id="indicador-senha">Senha:</a>
-                    <input type="password" id="senha" required  name="senha" size="55" maxlength="25" >
+                    <input type="password" id="senha" required  name="senha" size="46" maxlength="25" >
 
                     <input type="hidden" id="acao"    name="acao"    value="login" > 
 

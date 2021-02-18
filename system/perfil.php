@@ -26,6 +26,7 @@
         </div>
 
         <div class="class_body">
+            <selection class="class-buttons">
                 <div class="buttons">
                     <a id="button1" type="submit" href="../system/contato.php?codigo=<?php  echo $_GET["codigo"] ?>"> Entrar em contato</a>
                 </div>
@@ -37,7 +38,8 @@
                 <div class="buttons">
                     <a id="button3" type="submit" href="../system/cancelar.php?codigo=<?php  echo $_GET["codigo"] ?>"> Cancelar Conta</a>
                 </div>
-                
+            </selection>
+
         </div>
     </body>
 
