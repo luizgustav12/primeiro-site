@@ -7,13 +7,14 @@
 
     if ($_POST["acao"] == "alteracao"){
 
-        $idUsuaio = $_POST["idUsuario"];
+        $idUsuario = $_POST["idUsuario"];
+        $mensagem = $_POST["mensagem"];
 
         $sql = "SELECT *
                 FROM cadastro_usuario
                 WHERE idUsuario = ? ";
 
-        $arrayDados = $idUsuario;
+        $arrayDados[1] = $idUsuario;
 
         $dados = db_lista($sql, $arrayDados);
 
@@ -23,8 +24,9 @@
 
         $email_crip = criptografar_valor($email);
 
-        
-        
+        # envia o email
+        require "../include/enviar-contato.php";
+        header("Location: ../system/perfil.php?codigo=$email_crip");
 
     }
 

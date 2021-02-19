@@ -1,6 +1,5 @@
 <?php 
     require_once( "../include/PHPMailer/class.phpmailer.php");
-    require_once "../html/email-cadastro.html";
 
     // chama as configuracoes de enviar email
     require "../include/email-config.php";

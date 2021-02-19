@@ -1,6 +1,6 @@
 <?php 
     require_once( "../include/PHPMailer/class.phpmailer.php");
-    require_once "../html/email-cadastro.html";
+    require_once "../ajax/contato.php";
 
     // chama as configuracoes de enviar email
     require "../include/email-config.php";
@@ -27,17 +27,18 @@
         $mail -> Port          = $emailPort;               
 
         $mail -> AddAddress("luiz.gustavo@serel.com.br", $nomeSistema);
-        $mail -> Subject = 'CADASTRO MEU SITE!';
+        $mail -> Subject = 'VOCE TEM UM NOVO CONTATO!';
 
         $mail -> Body    = '<br>
                     <p font-size="40">
-                        <b> SEJA BEM VINDO(A) À PLATAFORMA MEU SITE </b> <br> 
+                        <b> OLÁ, VOCÊ TEM UM NOVO CONTATO </b> <br> 
                         <br><br>
-                        <b>'. $nome .'</b>, agora você ja pode acessar sua conta, para isso basta fazer login com seu email e senha.   <br>
-                        Nossa equipe agradece sua participação! <br><br>
-                        <tr>
-                            <img src="../imagens/icones/sol2.png" height="60p" width="60px">  
-                        </tr> 
+                        <b>'. $nome .'</b> enviou a seguinte mensagem: <br><br>'. $mensagem .' 
+                        <br><br>
+                        <a> Seus contatos são:</a><br>
+                        <b> Email: </b> '. $email .'<br>
+                        <b> Telefone: </b> '. $telefone .'<br>
+                        
                     </p> ';
 
         $mail -> MsgHTML($mail -> Body);

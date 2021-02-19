@@ -22,17 +22,6 @@
         justify-content: center;
     }
 
-    .texto{
-        top: 24px;
-        font-size: 25px;
-        color: white;
-
-        position: relative;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
-
     .button_voltar{
         font-size: 18px;
         background-color: #bf463b;
@@ -55,9 +44,52 @@
 
     .form-body{
         position: relative;
-        top: 35px;
+        top: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
+    fieldset{
+        height: 210px;
+        border-radius: 15px;
+        background-color: #d1d1d1;
+        width: 530px;
+        border: 0;  
+    }
+
+    .texto{
+        top: 5px;
+        font-size: 25px;
+        color: #c7483d;
+
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #senha{
+        position: relative;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+        top: 20px;
+        left: 53px;
+    }
+
+    .button{
+        font-size: 18px;
+        background-color: #c7483d;
+        border: none;
+        border-radius: 4px;
+        color: #e6e6e6;
+        padding: 8px 20px;
+        position: relative;
+        top: 48px;
+        left: 404px;      
+    }
