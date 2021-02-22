@@ -1,8 +1,8 @@
 <?php
 
-    // configurações para enviar email
-    $usuario = "luiz.gustavo@serel.com.br";
-    $senha   = "serel@20";
+//     // configurações para enviar email
+//     $usuario = "blablabla.com.br";
+//     $senha   = "blabla";
 
     $nomeSistema     = "Meu Síte";
     $emailHost       = "smtp.gmail.com";
