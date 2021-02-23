@@ -10,15 +10,15 @@
         
         <div class="class-body">
             <div class="fotos">
-                <div class="class-imagem"> <img src="../imagens/fotos/foto1.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto2.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto3.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto4.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto5.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto6.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto7.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto8.jpg"> </div>
-                <div class="class-imagem"> <img src="../imagens/fotos/foto9.jpg"> </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto1.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto2.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto3.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto4.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto5.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto6.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto7.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto8.jpg">  </div>
+                <div class="class-imagem"> <img src="../imagens/fotos/foto9.jpg">  </div>
                 <div class="class-imagem"> <img src="../imagens/fotos/foto10.jpg"> </div>
                 <div class="class-imagem"> <img src="../imagens/fotos/foto11.jpg"> </div>
                 <div class="class-imagem"> <img src="../imagens/fotos/foto12.jpg"> </div>

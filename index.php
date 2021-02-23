@@ -8,7 +8,7 @@
 <html lang="pt-br">
     <head>
         <title>Meu síte</title>       
-        <link rel="shortcut icon" href="../imagens/icones/icone.png">           
+        <link rel="shortcut icon" href="../imagens/icones/icone.png">       
         <link rel="stylesheet" type="text/css" href="../css/index.css">
     </head>
 
@@ -31,9 +31,13 @@
             </div>
         </div>
 
+        <div class="foto">
+            <img id="foto-index" src="../imagens/fotos/foto-index.svg">    
+        </div>
+
     </body>
 
-    <footer>
+    <footer style="top:120px;">
         <div class="div-redes">
             <a class="button-redes" href="https://instagram.com/_luizgustavops?igshid=kgml87ktakyf">
                 <img id="insta" src="../imagens/icones/instagram.png">

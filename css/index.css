@@ -141,34 +141,45 @@
         height: 500%; 
     }
 
+    .foto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img#foto-index {
+        position: relative;
+        width: 450px;
+        top: 120px;
+    }
+
     /* ------------------------------------------------ */ 
     
     footer{
         background-color: #d1d1d1d6;
         display: block;
         padding: 35px;
-        position: absolute;
         width: 100%;
-        height: 32px;
+        height: 15px;
         left: 0;
         z-index: -1;
         bottom: 0;
+        position: relative;
     }
 
     .div-redes{
-        top: 28px;
+        top: 20px;
         position: absolute;
     }
 
     #insta{
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
         margin: 0px 25px;
     }
 
     #linkedin{
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
     }
     
       
