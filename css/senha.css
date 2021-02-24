@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #2d3436;
+    height: 100%;
+}
+
+.topo{
+    position: relative;
+    top: -18px;
+}
+
+p{
+    top: 30px;
+    font-size: 32px;
+    color: white;
+    font-family: verdana;
+
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.class-body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    grid-gap: 25px 40px;
+}
+
+
+
+
+
+
