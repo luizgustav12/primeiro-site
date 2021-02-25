@@ -39,7 +39,7 @@
         <div class="form-body">
             <form name="form-cancelamento" id="cancelar" action="../ajax/cancelar.php" method="post" data-toggle="validator" role="form">
                 <fieldset>
-                    <h1 class="texto"> Utilize sua senha para confirmar o cancelamento de sua conta</h1>
+                    <h1 class="texto"> Utilize sua senha para confirmar o cancelamento de sua conta:</h1>
 
                     <input type="password" id="senha" required name="senha" size="55" maxlength="25">  
                     <input type="hidden" id="idUsuario" name="idUsuario" value="<?= $idUsuario ?>">

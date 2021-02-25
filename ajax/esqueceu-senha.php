@@ -51,6 +51,12 @@
                 # envia o email
                 require "../include/emailRecuperarSenha.php";
       
+                echo "<script>
+                        alert(' Email enviado com sucesso! ');
+                        window.location.href = '../index.php?';
+                      </script>"  ;
+                        
+
             } else{
 
                 echo "<script>
